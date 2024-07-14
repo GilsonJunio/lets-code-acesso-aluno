@@ -49,6 +49,7 @@ input {
     background: white;
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.801);
     gap: 10px;
+    position: absolute;
     border-radius: 5px;
 }
 
@@ -66,4 +67,19 @@ input {
 
 .botao-sair:active {
     transform: scale(1.05);
+}
+#menu{
+    position: fixed;
+    height: 100%;
+    margin-right:100%;
+    width: 400px;
+    box-shadow: 10px 10px 50px black;
+   
+}
+#menu button{
+   list-style: none;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 60%;
+   font-size: 20px;
 }
